@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Poppins:wght@400;500;600;700&display=swap');
+*{
+  margin: 0%;
+  font-family: 'Inter', sans-serif;
+  font-family: 'Poppins', sans-serif;
+}
+.foreground{
+  background-color: #a8dadc;
+}
+nav{
+  background-color: #e63946;
+  padding:  1.5rem;
+  color: azure;
+  text-align: center;
+  font-weight: 500;
+  font-size: large;
+}
+
+.container{
+  
+  background-color: #a8dadc;
+  width: 80%;
+  min-height: 100vh;
+  margin:auto;
+  padding: 4cqmax;
+  box-sizing: border-box;
+  
+  
+}
+.container >h1{
+  text-align: center;
+  margin-bottom: 30px;
+  color: rgb(31, 26, 26);
+}
+.container > form{
+  margin: auto;
+  
+  display: flex;
+  flex-direction: column;
+}
+.container > form > input,textarea,button{
+  padding: 20px;
+  border :1px solid rgba(0, 0, 0, 0.239);
+  border-radius: 5px;
+  margin: 10px 0;
+  font-size: 1.2rem;
+
+}
+button{
+  background-color: rgb(48, 48, 48);
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+.task{
+  display:flex;
+  background-color: white ;
+  padding: 15px;
+  border-radius: 5px;
+  margin: 1rem 0;
+}
+.task span{
+  color: rgba(0, 0, 0, 0.66);
+}
+.task>div{
+  width: 100%;;
+}
+.task button{
+  border-radius :100%;
+  width: 30px;
+  height: 30px;
+  font-size:1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.task button:hover{
+  background-color: #e63946;
+}
